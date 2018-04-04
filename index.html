@@ -5,21 +5,24 @@
   <title>More than just datum</title>
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <link href="css/modules.css" rel="stylesheet">
+  <link href="css/grid.css" rel="stylesheet">
   <link href="css/type.css" rel="stylesheet">
   <link href="css/main.css" rel="stylesheet">
 </head>
 <body>
 
   <main>
-    <div>
-      <h1><img src="images/logo.svg" alt=""></h1>
-    </div>
-    <form>
+    <div class="header">
       <div>
-        <label for="search"><img src="images/search.svg" alt=""></label>
-        <input id="search" type="search" placeholder="">
+        <h1 class="push-0"><img class ="logo pad-t pad-b-1-2 gutter-1-4" src="images/logo.svg" alt=""></h1>
       </div>
-    </form>
+      <form>
+        <div>
+          <label for="search"><img class="search-icon absolute" src="images/search.svg" alt=""></label>
+          <input id="search" type="search" placeholder="">
+        </div>
+      </form>
+    </div>
 
     <div>
       <h2>Nearest playgrounds</h2>
@@ -44,6 +47,10 @@
           <li>3.03 km</li>
         </ul>
       </div>
+    </div>
+
+    <div>
+      <h2>Playgrounds in the city</h2>
     </div>
 
     <div>
@@ -337,8 +344,9 @@
             <td>No</td>
             <td>No</td>
           </tr>
-        </div>
+        </tbody>
       </table>
+    </div>
   </main>
 
 </body>
