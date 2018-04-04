@@ -1,9 +1,13 @@
+html {
+  font-family: 'IBM Plex Sans', sans-serif;
+}
+
 img {
   width: 100%;
 }
 
 .search-icon {
-  width: 8.5%;
+  width: 5.5%;
 }
 
 .logo {
@@ -17,4 +21,12 @@ img {
 .header {
   background-color: #ddd;
   padding-bottom: .75em;
+}
+
+.colour {
+  background-color: #efefef;
+}
+
+.box-colour {
+  background-color: #fff;
 }
