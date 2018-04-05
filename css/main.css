@@ -2,31 +2,30 @@ html {
   font-family: "IBM Plex Sans", sans-serif;
 }
 
-img {
-  width: 100%;
-}
-
-.search-icon {
-  width: 5.5%;
-}
-
 .logo {
-  width: 200px;
+  max-width: 200px;
 }
 
-.absolute {
-  position: absolute;
-}
-
-.header {
+header {
   background-color: #ddd;
-  padding-bottom: .75em;
 }
 
-.colour {
+.medium-grey {
   background-color: #efefef;
 }
 
-.box-colour {
+table {
+  min-width: 45em;
+}
+
+.white {
   background-color: #fff;
+}
+
+@media only screen and (min-width: 60em) {
+
+  .table-wrapper {
+    overflow: visible;
+  }
+
 }
